@@ -4,7 +4,7 @@
 
 # COMMAND ----------
 
-#load file into dataframe
+#general purpose function - loads file into dataframe 
 
 def localloadcsv(filelocation, filename, filetype = "csv", delimiter = "'.'", first_row_is_header = "true", infer_schema="true"):
     # File location and type
